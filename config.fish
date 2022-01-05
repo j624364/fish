@@ -9,5 +9,7 @@ if status is-interactive
 	alias gc="git commit"
 	alias so="source ~/.config/fish/config.fish"
 
+	alias py="pypy3"
+
 	set -gx PATH $PATH ~/opt/cross/bin
 end
