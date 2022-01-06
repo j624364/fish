@@ -11,6 +11,8 @@ if status is-interactive
 
 	alias runvalgrind="valgrind --tool=memcheck --leak-check=yes --show-reachable=yes --num-callers=20 --track-fds=yes"
 
+	alias blight="sudo ~/Repos/BLight/bin/Release/net6.0/BLight"
+
 	alias py="pypy3"
 
 	set -gx PATH $PATH ~/opt/cross/bin
