@@ -16,4 +16,5 @@ if status is-interactive
 	alias py="pypy3"
 
 	set -gx PATH $PATH ~/opt/cross/bin
+	set EDITOR nvim /usr/bin/nvim
 end
